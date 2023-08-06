@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs in Egypt - WUZZUF |  وظف.كوم</title>
+    <link rel="icon" href="./images/faviconblue.ico">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="main" class="main">
+        <div class="slideshow">
+            <span class="active"></span>
+            <span class="upcoming"></span>
+            <span></span>
+        </div>
+        <div class="overlay"></div>
+        <div class="main-nav">
+            <div class="left-sec">
+                <img src="./images/logo-white.png" alt="wuzzuf-logo">
+                <span>Browse Jobs <i class="fa-solid fa-angle-down"></i></span>
+                <span>Browse Learning <i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="right-sec">
+                <a href="#">Login</a>
+                <a href="#">Join Now</a>
+                <a href="#">Employer</a>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="side-box" class="side-box none">
+                <div class="first-row">
+                    <a href="#"><i class="fa-solid fa-copy"></i><span>Career Coaching</span></a>
+                    <a href="#"><i class="fa-solid fa-fill-drip"></i><span>Career Readings</span></a>
+                    <a href="#"><i class="fa-solid fa-address-card"></i><span>Learning opportunities</span></a>
+                </div>
+                <div class="second-row">
+                    <a href="#"><i class="fa-solid fa-droplet"></i><span>Help Center</span></a>
+                    <a href="#"><i class="fa-solid fa-palette"></i><span>About Us</span></a>
+                    <a href="#"><i class="fa-solid fa-stamp"></i><span>Become a Partner</span></a>
+                    <a href="#"><i class="fa-solid fa-object-group"></i><span>Contact Us</span></a>
+                </div>
+                <div class="third-row">
+                    <span>Follow Us :</span><a href="#"><i class="fa-brands fa-facebook-square"></i></a><a href="#"><i class="fa-brands fa-twitter-square"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="intro">
+            <h1>Find the Best Jobs in Egypt</h1>
+            <p>Searching for vacancies & career opportunities? WUZZUF helps you in your job search in Egypt</p>
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <form>
+                    <input id="jobs" type="text" name="jobs">
+                    <label for="jobs">9,302 Open Jobs</label>
+                    <input type="submit" value="search jobs">
+                </form>
+            </div>
+        </div>
+        <button id="go-down"><i class="fa-solid fa-angle-down"></i></button>
+    </div>
+    <div id="side-nav" class="side-nav">
+        <div class="side-left-sec">
+            <img src="./images/logo-blue.png" alt="wuzzuf-logo">
+            <span>Browse Jobs <i class="fa-solid fa-angle-down"></i></span>
+            <span>Browse Learning <i class="fa-solid fa-angle-down"></i></span>
+            <form>
+                <input type="text" name="search" placeholder="Search jobs, Companies...">
+                <button><i class="fas fa-search"></i></button>
+                <input type="submit" value="Search" style="display: none;">
+            </form>
+        </div>
+        <div class="side-right-sec">
+            <a href="#">Login</a>
+            <a href="#">Join Now</a>
+            <a href="#">Employer</a>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="second-side-box" class="second-side-box none">
+            <div class="first-row">
+                <a href="#"><i class="fa-solid fa-copy"></i><span>Career Coaching</span></a>
+                <a href="#"><i class="fa-solid fa-fill-drip"></i><span>Career Readings</span></a>
+                <a href="#"><i class="fa-solid fa-address-card"></i><span>Learning opportunities</span></a>
+            </div>
+            <div class="second-row">
+                <a href="#"><i class="fa-solid fa-droplet"></i><span>Help Center</span></a>
+                <a href="#"><i class="fa-solid fa-palette"></i><span>About Us</span></a>
+                <a href="#"><i class="fa-solid fa-stamp"></i><span>Become a Partner</span></a>
+                <a href="#"><i class="fa-solid fa-object-group"></i><span>Contact Us</span></a>
+            </div>
+            <div class="third-row">
+                <span>Follow Us :</span><a href="#"><i class="fa-brands fa-facebook-square"></i></a><a href="#"><i class="fa-brands fa-twitter-square"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="a7a" class="a7a">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div> -->
+    <div class="swiper mySwiper swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slides">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+        </div>
+        <div id="next" class="swiper-button-next"></div>
+        <div id="prev" class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
